@@ -1,0 +1,5 @@
+AuthGroupFile /dev/null
+AuthType Basic
+AuthUserFile /home/nazkabe/domains/nazka.be/.htpasswd/public_html/intranet/.htpasswd
+AuthName "Intranet"
+require valid-user

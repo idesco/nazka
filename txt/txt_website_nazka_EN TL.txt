@@ -1,0 +1,110 @@
+HOME
+Welcome to the website of nazka! Take your time to explore (through) the icons on the left. 
+Feel free to contact us for more info. Enjoy!
+Our latest tweets:
+ABOUT
+‘nazka' is founded by Ides Bauwens and Han Tambuyzer in this nazkaravan. Here, their 
+mindsets and first ideas were put together. After 10 years of activity in the geo-sector, they 
+decided to start their own SME specialized in GEO-ICT. Their aim is to tackle society relevant 
+thematics while running a refreshing business.
+The name "nazka" originates from the "Lineas de Nazca" or "Nazca Lines". The shallow 
+trenches in the ground are a series of ancient geoglyphs located in the Nazca Desert in 
+southern Peru. They were created by the Nazca culture between 400 and 650 AD. The simple 
+but huge figures are only recognizable when taking a larger perspective, by the aid of a 
+(flight) plane/aircraft or from-standing on the surrounding hilltops.
+The Nazca lines reflect the approach of 'nazka mapps': look not only at the details but also 
+consider the wider concept of things. nazka is pro-active and dedicated to truly understand 
+and qualitatively answer our clients’ problems. (vermoed dat je client als meervoud 
+bedoelt?)
+
+SMART MAPPS
+nazka develops innovative geo-ict services. We combine our expertise in Remote Sensing, 
+Geographic Information Systems (GIS) and data-processing with web and mobile 
+applications. nazka bridges the gap between 'traditional' geo-information and a more 
+accessible spatial decisions support system. We call our final products smart mapps: 
+customized and interactive mapping applications.  
+ 
+We are still working on our first concrete results. But a simple example and bold statement 
+can already clarify a lot: 
+ 
+"OUR SMART MAPPS GIVE YOU MORE TIME TO SPOT BIRDS!"  
+ 
+Uh? Each year in February the annual bird counting takes place in Flanders and the 
+Netherlands. 40.000 persons (people, individuals) commit themselves to observe and count 
+the birds in their garden. Actually this is done with pen and paper. This is actually still done 
+with pen and paper.  
+Imagine what a smart mapp could (realize) do. Instead of pen and paper to note your 
+observation, you can report your spotted birds through your smartphone or tablet. First you 
+make a selection based on color, size,... and your device suggests several bird-species. By a 
+simple 'tap' on your screen, your choice is archived in the cloud together with the time, 
+location and weather conditions. More observations can be assimilated faster and the 
+determination accuracy only improves. The organizer no longer needs to process the data. 
+All the data are public and online available, together with statistics and maps. These 
+represent which bird species occur where and when. The information immediately can be 
+filtered based on location, species, time, number,.... At the end of the day you know the best 
+birder in the neighbourhood. ;-) 
+ 
+Indeed, smart mapps can give you more time to spot birds!  
+ 
+You can find more info on our smart mapps in the presentation below.
+
+PREZI
+Let’ start explaining
+Nazka makes smart mapps … but what does that mean?
+*	Take rational decisions on the spot = spatial decision support
+*	Mapps = map + apps
+*	Apps = applications
+… for who
+*	For local, national, international authorities & organisations
+*	For enterprises
+*	For you
+Our mapps are based on 3 key values
+1.	They are simple & intelligent
+Coping with the abundance of available data
+*	Sensors everywhere
+*	Internet & social media
+*	Statistical databases
+*	Open (geo-) data
+User friendly
+Clear data visualisation
+*	Only representing what is requested
+*	Straightforward maps and symbology (symbols?)
+Combination & integration into useful information
+*	Building GIS-extensions & spatial modules
+*	Programming mobile apps
+*	Running geostatistical & analytical models
+*	Exploring databases
+*	Interpreting sensors
+*	Using earth observation techniques
+Added value
+*	Sourcing crowd knowledge and expertise
+*	Guiding the interpretation of the map
+*	New insights
+2.	Using new technologies
+With a close eye (to) on new developments and innovations
+3.	with focus on a sustainable society
+conscious of a world in transition
+*	urban climate & climate change
+*	use of energy and resources
+*	global health
+*	humanitarian aid
+*	overcrowding and aging
+nazka will help you … (to) not only to see the very details … but also to observe your world 
+…with more perspective.
+The hummingbird from Nazca Lines
+NEWSMAPP (BETA)
+This beta-version of the newsmapp allows you to search for tweets in a defined geographic 
+area. Soon, all #nazkanews will be published on this mapp.
+Move the marker   to change your location
+Drag the resize icon   to enlarge or reduce your search radius
+
+
+Extra = 
+‘nazka’, in full ‘nazka mapps’ is a fresh (niet zeker of vers hier het juiste woord is)  company founded in 
+October 2012. We are developing innovative and creative geo-ict applications with a focus on today’s 
+societal challenges and state of transition. We have in-depth knowledge in Remote Sensing, 
+Geographic Information Systems (GIS) and data processing technologies. This expertise is combined 
+with state-of-the-art web and mobile technologies, which allows us to build the bridge from ‘traditional’ 
+remote sensing products to advanced spatial decision support systems.  
+In short, nazka is delivering customized and interactive mapping applications (mapps) that can support 
+decision makers today, to take the right decisions for tomorrow.

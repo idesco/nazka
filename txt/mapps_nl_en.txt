@@ -1,0 +1,51 @@
+MAPPS
+<p>De smart mapps van nazka zijn slimme & interactieve 
+kaartapplicaties. Door Remote Sensing & GIS te 
+combineren met web & mobiele toepassingen, maakt nazka 
+geo-informatie nuttig en toegankelijk.</p>
+
+<p>Een concreet voorbeeld.<br></br> In februari heeft 
+de jaarlijkse vogeltelling plaats in Vlaanderen en 
+Nederland. Hierbij engageren meer dan 40.000 
+mensen zich om in eigen tuin vogels te observeren en te 
+tellen. Momenteel gebeurt dit met pen en 
+papier. </br>Stel je nu voor wat een slimme kaart hier 
+zou kunnen betekenen. In plaats van met pen en papier 
+elke vogel-observatie te noteren, kan je via je 
+smartphone of tablet de gespotte vogelsoort melden. Je 
+maakt eerst een selectie op basis van kleur, 
+grootte,... waarna je toestel je enkele vogel-
+voorstellen doet. Met een simpele 'tap' op het scherm 
+maak je je keuze. Tijdstip, locatie en 
+weersomstandigheden worden automatisch mee opgeslagen 
+in de 'cloud'. Op deze manier kunnen sneller meer 
+waarnemingen opgeslagen worden én met een betere 
+determinatie. Bij Natuurpunt hoeft men niet langer de 
+informatie van alle formulieren te verwerken. Alle info 
+is meteen online beschikbaar, alsook 
+statistieken en kaarten die weergeven 'waarneer' vogels voorkomen. 
+Men kan een selectie maken op locatie, soort, tijdstip, 
+aantal enz. En op het einde van de dag ken je de beste 
+vogelaar uit je buurt ;-) </p>
+
+
+MAPPS
+<p>Our smart mapps are interactive mapping applications. 
+Combining Remote Sensing & GIS with web & mobile technology, 
+nazka makes geo-information usefull and accessible.</p>
+
+<p>Each year in February the annual bird counting takes place in Flanders and the 
+Netherlands. 40.000 people commit themselves to observe and count 
+the birds in their garden. This is actually still done 
+with pen and paper.  
+Imagine what a smart mapp could do. Instead of pen and paper to note your 
+observations, you can report your spotted birds through your smartphone or tablet. First you 
+make a selection based on color, size,... and your device suggests several bird-species. By a 
+simple 'tap' on your screen, your choice is archived in the cloud together with the time, 
+location and weather conditions. More observations can be assimilated faster and the 
+determination accuracy only improves. The organizer no longer needs to process the data. 
+All results are easily made public and online available, together with statistics and maps. The information can be 
+filtered based on location, species, time, number,.... At the end of the day you know the best 
+birder in the neighbourhood. ;-) </p>
+
+

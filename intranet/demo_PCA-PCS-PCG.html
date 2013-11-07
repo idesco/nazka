@@ -1,0 +1,42 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DEMO PCG-PCS-PCA</title>
+<link href="styles/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="../styles/temp.css" rel="stylesheet" type="text/css">
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="styles/respond.min.js"></script>
+</head>
+<body>
+<div class="gridContainer clearfix">
+
+  <div id="blok1"><h1>DEMO PCG-PCS-PCA</h1></div>
+  <div id="title"><h2>Overzicht GPS data</h2></div>
+  <div id="blok2"><h3>Map</h3><iframe width="600" height="400" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?viz=MAP&amp;q=select+col2+from+1kDUjBr59LufuEEoGmor412olI0fQdBIDJy9KlXM&amp;h=false&amp;lat=50.94616716505862&amp;lng=3.5242451343535777&amp;z=17&amp;t=3&amp;l=col2&amp;y=2&amp;tmplt=3"></iframe></div>
+  <div id="blok3"><h3>GPS data pH meting 24/04/2013</h3><iframe width="600" height="400" scrolling="yes" frameborder="no" src="https://www.google.com/fusiontables/embedviz?viz=CARD&amp;q=select+*+from+1kDUjBr59LufuEEoGmor412olI0fQdBIDJy9KlXM&amp;tmplt=1&amp;cpr=2"></iframe></div>
+  <div id="title"><h2>Statistieken</h2></div>	
+  <div id="blok4"><iframe width="600" height="400" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?containerId=gviz_canvas&amp;q=select+col4%2C+col0+from+1kDUjBr59LufuEEoGmor412olI0fQdBIDJy9KlXM+order+by+col4+asc+limit+100&amp;viz=GVIZ&amp;t=LINE&amp;uiversion=2&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=true&amp;width=500&amp;height=300"></iframe></div>
+  <div id="blok5"><iframe width="600" height="400" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?containerId=gviz_canvas&amp;q=select+col4%2C+col0+from+1kDUjBr59LufuEEoGmor412olI0fQdBIDJy9KlXM+order+by+col4+asc+limit+25&amp;viz=GVIZ&amp;t=BAR&amp;uiversion=2&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=true&amp;width=600&amp;height=400"></iframe></div>
+  
+</div>
+</body>
+</html>

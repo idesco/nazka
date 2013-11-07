@@ -1,0 +1,118 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<META NAME="Description" CONTENT="De smart mapps van nazka zijn interactieve kaartapplicaties.">
+<title>nazka | smart mapps</title>
+<link rel="shortcut icon" href="pics/favicon/nazka.ico" type="image/x-icon" />
+<script type="text/javascript" src="scripts/quattrocento-sans.js"></script>
+<script type="text/javascript" src="scripts/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/scale_txt.js"></script>
+<script type="text/javascript" src="scripts/swapimage.js"></script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37540427-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();	</script>
+<link href="scripts/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="styles/fluidLayout.css" rel="stylesheet" type="text/css">
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="scripts/maps_api_extended.js"></script>
+<script type="text/javascript" src="scripts/elevation_mapper_bru-nl.js"></script>
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="scripts/respond.min.js"></script>
+
+</head>
+<body class="background1" onLoad: MM_preloadImages('pics/smartmapps_b.png','pics/newsmapp_b.png','pics/about_b.png','pics/contact_b.png')>
+<div class="gridContainer clearfix">
+  <div id="leftbar">
+   	<ul id="icons">
+        	<li id="logo"><a href="index.html"><img src="pics/nazka_logo.png" alt="" /></a></li>
+        	<li><a href="mapps_nl.html"><h2 id="active">mapps</h2><img src="pics/icons/smartmapps_b.png" id="smartmapp"/></a></li>
+            <li><a href="skills_nl.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('skills','','pics/icons/skills_b.png',1)"><h2>skills</h2><img src="pics/icons/skills_gw.png" id="skills"/></a></li>
+            <li><a href="about_nl.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('about','','pics/icons/about_b.png',1)"><h2>over ons</h2><img src="pics/icons/about_gw.png" id="about"/></a></li>
+            <li><a href="news_nl.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('newsmapp','','pics/icons/newsmapp_b.png',1)"><h2>nieuws</h2><img src="pics/icons/newsmapp_gw.png" id="newsmapp"/></a></li>
+            <li><a href="contact_nl.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('contact','','pics/icons/contact_b.png',1)"><h2>contact</h2><img src="pics/icons/contact_gw.png" id="contact"/></a></li>  
+	</ul>   
+  </div>
+    <span class="social-media-mobile social-media">&nbsp;&nbsp;
+  <a href="https://twitter.com/nazka_mapps" target="_blank"><img src= "pics/icons/nazka_tweet_b.png" /></a>&nbsp; <a href="http://www.linkedin.com/in/nazka" target="_blank"><img src= "pics/icons/nazka_linkedin_b.png" /></a> &nbsp;</span>
+    <span class="copyright">© nazka, 2013</span>
+<div id="pages-center">
+  	<div id="pages-title"><h1>smart mapps</h1></div>
+    <div id="about-row">
+    	<div id="mapps-txt"><p>De smart mapps van nazka zijn slimme & interactieve kaartapplicaties. Door Remote Sensing & GIS te combineren met web & mobiele toepassingen, maakt nazka geo-informatie nuttig en toegankelijk. Geïnteresseerd om hierover meer te weten? Dan moet je zeker de prezi-presentatie <a href="#prezi">onderaan</a> de pagina bekijken. Tussendoor maakt nazka ook eenvoudige info-kaarten aan. Zomaar, altijd actueel en op basis van vrij beschikbare data op het net. </p></div>
+        
+        <div id="pages-title2"><a id="thuisindestad"></a><p>Gepost op 07-10-2013, op pad in de stad.&nbsp;<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.nazka.be/mapps_nl.html#thuisindestad" data-text="op pad in de stad #nazka #mobiel21" data-related="nazka_mapps" data-lang="nl">Tweeten</a></br></p><h2> nazka ontwikkelt webapplicatie voor een kindvriendelijke stad</h2></div>
+        <div id="mapps-txt"><p>Samen met <a href='http://www.mobiel21.be/nl' target="_blank">Mobiel21</a> ontwikkelt nazka een online kaartapplicatie voor een kindvriendelijke stad. Het initiatief wil de leuke plekjes in de stad in de kijker zetten. We focussen op  speelplekjes voor kinderen tussen 0-6 jaar en hun (groot-)ouders. Ook veilige, gezellige en avontuurlijke fiets- en wandelroutes van en naar die plekken worden in kaart gebracht. Ouders en kinderen kunnen zelf de speelplekken en stadsroutes toevoegen, plannen en beoordelen. Klik op onderstaande afbeelding om ze meer in detail te bekijken.</p></div>
+        <div id="mapps-img"><a href="mapps/thuisidstad.png" target="_blank"><img src="mapps/thuisidstad.png"></div>
+				
+		<div id="pages-title2"><a id="past flood map Myanmar"></a><p>Gepost op 03-10-2013, nazka brengt historische overstromingen Myanmar in kaart.&nbsp;<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.nazka.be/mapps_nl.html#pfm" data-text="nazka mapt overstromingen Myanmar" data-related="nazka_mapps" data-lang="nl">Tweeten</a></p><h2>nazka brengt overstromingen in Myanmar in kaart</h2></div>
+        <div id="mapps-txt"><p>In opdracht van <a href='http://www.sbe.be' target="_blank">SBE</a>, een studie- en adviesbureau gespecialiseerd in waterbouwkundige constructies, bracht nazka de overstromingen van de Irrawaddy rivier in Myanmar in kaart. Op basis van satelliet-data (Landsat archief) werd een inventaris van de overstromingen van de voorbije 20 jaar opgemaakt. Het <a href="http://landsat.gsfc.nasa.gov/" target="_blank">Landsat</a> programma van NASA levert al jaren zeer bruikbare en gratis beschikbaar beeldmateriaal vanuit de ruimte. De beelden met een resolutie tot 15m zijn uitermate geschikt om rivieren en overstromingen in kaart te brengen. Hier werd een selectie van beelden gebruikt om de normale en maximale waterstand in kaart te brengen. De kartering is het resultaat van een semi-automatische classificatie, waarbij optimaal gebruik gemaakt wordt van de spectrale informatie uit de verschillende <a href="http://www.mapbox.com/blog/putting-landsat-8-bands-to-work/" target="_blank">Landsat banden</a>. Het voorbeeld hieronder toont de normale waterstand en het maximaal overstroomde gebied tijdens de noodtoestand van 2007. Het beeld op de achtergrond is een Landsat 7 beeld van 2009 dat werd gebruikt voor de kartering van de normale waterstand. </p></div>
+        <div id="frames"><iframe width='850' height='500' frameBorder='0' src='http://a.tiles.mapbox.com/v3/nazka-mapps.pfm001.html#9/21.843400000000013/94.99369999999996'></iframe></div>
+        <div><br></div>
+		
+		<div id="pages-title2"><a id="flyer"></a><p>Gepost op 01-10-2013, nazka flyer.&nbsp;<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.nazka.be/mapps_nl.html#flyer" data-text="Bekijk wat nazka voor u kan doen omtrent aardobservatie! #nazka" data-related="nazka_mapps" data-lang="nl">Tweeten</a></br></p><h2>Bekijk wat nazka voor u kan doen omtrent aardobservatie</h2></div>
+        <div id="mapps-txt"><p>De activiteiten van nazka kunnen grotendeels ingedeeld worden in twee grote blokken: "interactieve kaarttoepassingen op maat" en "ruimtelijke analyses". In de "ruimtelijke analyse" poot passen we allerhande technieken uit de aardobservatie, GIS en beeldverwerking toe om "geo-data" om te zetten in "geo-informatie". Klik op onderstaande afbeelding om er meer over te lezen.</p></div>
+        <div id="mapps-img"><a href="mapps/nazka_RS_activiteiten.pdf" target="_blank"><img src="mapps/EO_flyer.png" width="240" height="347"></div>
+		
+		<div id="pages-title2"><a id="woodstoves"></a><p>Gepost op 26-09-2013, Woodstoves.&nbsp;<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.nazka.be/mapps_nl.html#woodstoves" data-text="Woodstoves #nazka" data-related="nazka_mapps" data-lang="nl">Tweeten</a></br></p><h2>Wat kunnen onze kaarttoepassingen betekenen voor CO2-compensatie initiatieven?</h2></div>
+        <div id="mapps-txt"><p>Voor een klant die gespecialiseerd is in de compensatie van CO2-uitstoot, heeft nazka de mogelijkheden omtrent een "geo-web service" in de context van CO2 reductie bekeken. Een impressie daarvan zie je in onderstaande afbeelding (klik voor meer detail).</p></div>
+        <div id="mapps-img"><a href="mapps/woodstoves.png" target="_blank"><img src="mapps/woodstoves.png"></div>
+		
+		<div id="pages-title2"><a id="nostalgeo"></a><p>Gepost op 18-06-2013, nazka witnt AppsforFlanders: nostalgeo.&nbsp;<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.nazka.be/mapps_nl.html#nostalgeo" data-text="nazka op 1 op #AppsforFlanders #odd13" data-related="nazka_mapps" data-lang="nl">Tweeten</a></p><h2>nazka wint AppsforFlanders 2013</h2></div>
+        <div id="mapps-txt"><p>Na winst op apps4geo, werd nazka gevraagd om 'nostalgeo' te verdedigen op <a href='http://okfn.be/2013/05/31/apps-for-flanders-business-lounge/' target="_blank">AppsforFlanders</a>. Deze keer lag de focus op de economische waarde van innovatieve open data applicaties. De wedstrijd werd parallel georganiseerd met de <a href='http://www.opendataforum.be/news/volg-de-open-data-dag-live-op-vrijdag-14-juni' target="_blank">Open Data Dag</a> van de Vlaamse overheid. Na een 'Dragons Den' voor een selecte jury en een publieke pitch op de open data dag zelf, ging nazka lopen met de <a href='http://appsforgeo.be/?p=289' target="_blank">eerste plaats</a>! Hieronder vind je Han's pitch over Nostalgeo | op slide en video!</p></div>
+        <div id="frames"><iframe src="http://www.slideshare.net/slideshow/embed_code/23099670" width="335" height="290" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:0px solid #CCC;border-width:0px 0px 0;margin-bottom:0px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe> <iframe width="492" height="290" src="http://www.youtube.com/embed/V2r0x5omUwQ" frameborder="0" allowfullscreen></iframe> </div>
+        <div><br></div>
+        <div id="pages-title2"><a id="20km"></a><p>Gepost op 05-06-2013, nazka loopt 20km door Brussel.&nbsp;<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.nazka.be/mapps_nl.html#20km" data-text="#20kmdoorBrussel op #kaart, uitgezet in hoogteprofiel. Maak je eigen route en hoogteprofiel op" data-related="nazka_mapps" data-lang="nl">Tweeten</a><br>Data bron: nazka smartphone GPS tracking & google maps.&nbsp;//&nbsp;Methode: nazka code-edit van Google maps api v3 (html5, css3 & javascript) <a href="http://econym.org.uk/gmap/" target="_blank">Mike Williams</a></p><h2>nazka loopt 20km door Brussel ten voordele van Cambodja</h2></div>
+        <div id="mapps-txt"><p>nazka liep de 20km door Brussel voor de organisatie <a href="http://www.ondernemersvoorondernemers.be" target="_blank">ondernemers voor ondernemers</a> en draagt via sponsoring bij aan duurzame projecten in <a href="http://www.cfp.be/n/actualiteit.asp?ID=230" target="_blank">Cambodja</a>. Tijdens het lopen werd met een smartphone het parcours opgenomen via GPS-tracking. Klik op de afbeelding om de Beta-applicatie te gebruiken.</p><p class="small-l"> "Opgepast: de applicatie werkt niet op internet explorer. Wij raden je aan een andere browser te kiezen!"</p></div>
+        <div id="mapps-img"><a href="hoogtemapper.html" target="_blank"><img src="mapps/20KmBXL_printscreen.png"><p>		
+	  </div>
+      </div>
+        
+        <div id="pages-title2"><a id="nostalgeo"></a><p>Gepost op 28-05-2013, nazka wint award 'beste app' op Apps4Geo: nostalgeo.&nbsp;<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.nazka.be/mapps_nl.html#nostalgeo" data-text="nazka won prijs voor beste app of AppsforGeo" data-related="nazka_mapps" data-lang="nl">Tweeten</a></p><h2>nazka wint prijs voor beste app of AppsforGeo</h2></div>
+        <div id="mapps-txt"><p><a href='http://appsforgeo.be/' target="_blank">AppsforGeo</a> is een 5uur durende hackaton, georganizeerd door Agoria en OKFN, waar apps (concepten) worden ontwikkeld met focus op open geodata. nazka vroeg <a href='http://be.linkedin.com/pub/ben-abelshausen/11/32/833' target="_blank">Ben Abelshausen</a> van OpenStreetMap om samen deel te nemen als het 'Nostalgeeks'-team. Met 'Nostalgeo | map the past with postcards |' wonnen ze de 'Best App' award.<br> Een korte toelichting vind je terug in onderstaande presentatie:</p></div>
+        <div id="frames"><iframe src="http://www.slideshare.net/slideshow/embed_code/22487001" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
+        <div><br></div>
+        <div id="pages-title2"><a id="cityzen"></a><p>Gepost op 07-03-2013, Geo-platform voor klimaatadaptatie: Cityzen.&nbsp;<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.nazka.be/mapps_nl.html#cityzen" data-text="nazka presenteerde Cityzen: een geo-platform voor klimaatadaptatie op de #superminds conferentie van #iminds #iboot" data-related="nazka_mapps" data-lang="nl">Tweeten</a></p><h2>nazka stelt voor: Cityzen | een geo-platform voor klimaatadaptatie</h2></div>
+        <div id="mapps-txt"><p>nazka neemt deel aan het iMinds iBoot-programma. 'Cityzen' werd geselecteerd voor de Superminds conferentie in Mechelen. De poster die daar door nazka gepresenteerd werd, kan je hieronder terugvinden. </p></div>
+        <div id="mapps-img"><a href="mapps/nazka_iBoot 2013_cityzen_poster.png" target="_blank"><img src="mapps/nazka_iBoot 2013_cityzen_poster_LR.png"></a><p></p></div>
+        
+        
+        <div id="pages-title2"><a id="vogelmap"></a><p>Gepost op 14-02-2013, Info-kaart vogeltelling.&nbsp;<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.nazka.be/mapps_nl.html#vogelmap" data-text="Waar voelt huismus zich meest thuis? Kijk naar kaart #vogeltelling #vogelweekend Vlaanderen en Nederland" data-related="nazka_mapps" data-lang="nl">Tweeten</a></br>Data bron: <a href="http://www.natuurpunt.be/nl/biodiversiteit/vogels/telresultaten-sinds-_643.aspx" target="_blank">Natuurpunt</a> en <a href="http://www.tuinvogeltelling.nl/index.cfm?act=resultaten.nu" target="_blank">Vogelbescherming Nederland</a>, 2013. (<a href="https://docs.google.com/spreadsheet/ccc?key=0AjAi7sIGqB8gdGlYakV2U3pPTm9HTnhTaEwyME92NWc&usp=sharing" target="_blank">tabel</a>) &nbsp;//&nbsp; Methode: <a href="http://support.google.com/fusiontables/answer/2571232?hl=en" target="_blank">Google fusion tables</a> &nbsp; // &nbsp;Inspiratie: <a href="http://simonrogers.net/2013/02/04/mapping-the-census-how-we-did-it-in-three-steps/" target="_blank">Simon Rogers</a></p><h2>Eerste resultaten vogeltelling Vlaanderen en Nederland in kaart</h2></div>
+        <div id="mapps-txt"><p>nazka bracht resultaten van het recente vogelweekend in <a href="http://www.natuurpunt.be/nl/biodiversiteit/vogels/telresultaten-sinds-_643.aspx" target="_blank">Vlaanderen</a> en <a href="http://www.tuinvogeltelling.nl/index.cfm?act=resultaten.nu" target="_blank">Nederland</a> samen in een eenvoudige kaart. Hieruit blijkt ondermeer dat de vink eerder een Vlaamse vogel is, de huismus zich meer thuis voelt in Noord-Nederland en de kool- en pimpelmees liever in het binnenland dan aan zee wonen. </p></div>
+        <div id="mapps-img"><img src="mapps/nazka_vogelmap.gif" width="400" height="360"><p>*aantal/totaal aantal waarnemingen van de top 10 meest voorkomende soorten per provincie</p></div>
+        <div id="pages-title2"><h2>Meer uitleg over smart mapps</h2></div>
+        <div id="prezi"><iframe src="http://prezi.com/embed/w3_isxa-t4p-/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=autostart&amp;autohide_ctrls=0" width="600" height="336" frameBorder="0"></iframe></div>
+    
+    	<div id="mapps-txt"><h4>Een concreet voorbeeld</h4><p>In februari heeft de jaarlijkse vogeltelling plaats in Vlaanderen en Nederland. Hierbij engageren meer dan 40.000 mensen zich om in eigen tuin vogels te observeren en te tellen.  </br>Stel je nu voor wat een slimme kaart hier zou kunnen betekenen. In plaats van met pen en papier elke vogel-observatie te noteren, kan je via je smartphone of tablet de gespotte vogelsoort melden. Je maakt eerst een selectie op basis van kleur, grootte,... waarna je toestel je enkele vogel-voorstellen doet. Met een simpele 'tap' op het scherm maak je je keuze. Tijdstip, locatie en weersomstandigheden worden automatisch mee opgeslagen in de 'cloud'. Op deze manier kunnen sneller meer waarnemingen opgeslagen worden én met een betere determinatie. Bij Natuurpunt hoeft men niet langer de informatie van alle formulieren te verwerken. Alle info is meteen online beschikbaar, alsook statistieken en kaarten die weergeven 'waarneer' vogels voorkomen. Men kan een selectie maken op locatie, soort, tijdstip, aantal enz. En op het einde van de dag ken je de beste vogelaar uit je buurt ;-) </br>Naar aanleiding van dit voorbeeld hebben we enkele resultaten van 2013 al eens <a href="#vogelmap">in kaart</a> gebracht.</p></div>
+</div>
+<div id="pages-rightbar">
+  	<div id="pages-nav">
+		<ul class="">
+	  		<li><a href="mapps.html"><strong>en</a></li>
+			<li><a class="active"  href="mapps_nl.html"><strong>nl</a></li>
+		</ul>
+    </div>
+  </div>
+</div>
+</body>
+</html>

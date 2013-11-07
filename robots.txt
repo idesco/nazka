@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /intranet/intranet.html
+Disallow: /contact_nl_bedankt.html
+Disallow: /contact_thanks.html
+Disallow: /php/form-to-email_nl.php
+Disallow: /php/form-to-email.php
