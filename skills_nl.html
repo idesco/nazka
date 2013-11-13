@@ -16,7 +16,8 @@
 <script type="text/javascript" src="scripts/jquery.min.js"></script>
 <script type="text/javascript" src="scripts/scale_txt.js"></script>
 <script type="text/javascript" src="scripts/swapimage.js"></script>
-
+<script type="text/javascript" src="scripts/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="scripts/lightbox-2.6.min.js"></script>
 <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-37540427-1']);
@@ -28,7 +29,7 @@
   })();	</script>
 <link href="scripts/boilerplate.css" rel="stylesheet" type="text/css">
 <link href="styles/fluidLayout.css" rel="stylesheet" type="text/css">
-
+<link href="styles/lightbox.css" rel="stylesheet" />
 
 <!-- 
 To learn more about the conditional comments around the html tags at the top of the file:
@@ -66,17 +67,13 @@ Do the following if you're using your customized build of modernizr (http://www.
             <div id="about-row">
 			  <div id="mapps-txt"><p>nazka borduurt voort op de 30 jaar ervaring en expertise die <a href="http://www.linkedin.com/in/ibauwens" title="Linkedin Ides" target="_blank">Ides Bauwens</a>, <a href="http://www.linkedin.com/in/htambuyzer" title="Linkedin Han" target="_blank">Han Tambuyzer</a> en <a href="http://www.linkedin.com/in/ndosselaere" title="Linkedin Nicolas" target="_blank">Nicolas Dosselaere</a> samen verzameld hebben. Klik op hun namen om een uitgebreid LinkedIn profiel te verkrijgen.</BR> </BR>
               Wat kan nazka nu precies voor u betekenen? Met volgende producten, diensten en activiteiten kan nazka een oplossing bieden voor uw probleem. Aarzel niet ons te contacteren om uw specifieke bekommernissen te bespreken.</p>
-              <ul>
-              <li><a class="small_caps" href="skills_nl.html#consult">consulting & opleiding</a></li>
-              <li><a class="small_caps" href="skills_nl.html#data">geo-data</a></li>
-              <li><a class="small_caps" href="skills_nl.html#applic">geo-applicaties</a></li>
-              <li><a class="small_caps" href="skills_nl.html#visual">geo-visualisatie</a></li>
-              </ul>
               </div>
-            <div id="mapps-img"><a id="consult"></a><a href="pics/skills_NL/nazka_skills1.PNG" target="_blank"><img src="pics/skills_NL/nazka_skills1.PNG"></a></br><a href="skills_nl.html">terug</a></div>
-            <div id="mapps-img"><a id="data"></a><a href="pics/skills_NL/nazka_skills2.PNG" target="_blank"><img src="pics/skills_NL/nazka_skills2.PNG"></a></br><a href="skills_nl.html">terug</a></div>
-            <div id="mapps-img"><a id="applic"></a><a href="pics/skills_NL/nazka_skills3.PNG" target="_blank"><img src="pics/skills_NL/nazka_skills3.PNG"></a></br><a href="skills_nl.html">terug</a></div>
-            <div id="mapps-img"><a id="visual"></a><a href="pics/skills_NL/nazka_skills4.PNG" target="_blank"><img src="pics/skills_NL/nazka_skills4.PNG"></a></br><a href="skills_nl.html">terug</a></div>
+            <div id="mapps-img">
+			<a id="consult"></a><a href="pics/skills_NL/nazka_skills1.PNG" data-lightbox="skills" title="consulting & opleiding"><img src="pics/skills_NL/nazka_skills1.PNG" height="175px"></a>
+            <a id="data"></a><a href="pics/skills_NL/nazka_skills2.PNG" data-lightbox="skills" title="geo-data"><img src="pics/skills_NL/nazka_skills2.PNG" height="175px"></a>
+            <a id="applic"></a><a href="pics/skills_NL/nazka_skills3.PNG" data-lightbox="skills" title="geo-applicaties"><img src="pics/skills_NL/nazka_skills3.PNG" height="175px"></a>
+            <a id="visual"></a><a href="pics/skills_NL/nazka_skills4.PNG" data-lightbox="skills" title="geo-visualisatie"><img src="pics/skills_NL/nazka_skills4.PNG" height="175px"></a>
+			</div>
             </div>
 		</div>
 		<div id="pages-rightbar">

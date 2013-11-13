@@ -70,15 +70,16 @@ Do the following if you're using your customized build of modernizr (http://www.
 			<section style="margin-left:0px; padding-top=16px;">
 			<form>
 				<input placeholder="Naam" required="required" type="text" name="contactName" id="name" value="" size="22" tabindex="1" />
-				<input placeholder="Email" required="required" type="text" name="email" id="email" value="" size="22" tabindex="2" />
+				<input placeholder="Email" required="required" type="email" name="email" id="email" value="" size="22" tabindex="2" />
 				<input placeholder="Bericht" required="required" name="comments" id="" cols="50" rows="10" tabindex="4" />
 				<input type="submit" value="Verstuur bericht"/>
+			</section>
 				-->
 			<div id="pages-form">
         	<form action="php/form-to-email_nl.php" method="post" id="contactform">
             <fieldset>
 						<ul class="">
-							<li class="name"><input placeholder="Naam" required="required" type="text" id="name" value="" size="22" tabindex="1" /></li>
+							<li class="name"><input placeholder="Naam" required="required" type="text" id="name" name="contactName" value="" size="22" tabindex="1" /></li>
 							<li class="email"><input placeholder="Email" required="required" type="email" id="email" value="" size="22" tabindex="2" /></li>
 							<li class="textarea"><textarea placeholder="Bericht" required="required" id="" cols="50" rows="10" tabindex="4"></textarea></li>
                             <li class=""><button class="button" type="submit" >Verstuur bericht</button></li>
